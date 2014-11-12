@@ -1,6 +1,6 @@
 //
-//  RACSwift_ExampleTests.swift
-//  RACSwift-ExampleTests
+//  RACSwift_SearchBarTests.swift
+//  RACSwift-SearchBarTests
 //
 //  Created by Azri Jamil on 11/12/14.
 //  Copyright (c) 2014 Nematix System. All rights reserved.
@@ -9,7 +9,7 @@
 import UIKit
 import XCTest
 
-class RACSwift_ExampleTests: XCTestCase {
+class RACSwift_SearchBarTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

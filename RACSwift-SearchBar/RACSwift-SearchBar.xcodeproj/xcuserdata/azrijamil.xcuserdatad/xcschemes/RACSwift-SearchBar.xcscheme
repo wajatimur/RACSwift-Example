@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BBAC200B1A13019A00568EAA"
-               BuildableName = "RACSwift-Example.app"
-               BlueprintName = "RACSwift-Example"
-               ReferencedContainer = "container:RACSwift-Example.xcodeproj">
+               BlueprintIdentifier = "BBAC20391A13061500568EAA"
+               BuildableName = "RACSwift-SearchBar.app"
+               BlueprintName = "RACSwift-SearchBar"
+               ReferencedContainer = "container:RACSwift-SearchBar.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -28,10 +28,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BBAC20201A13019A00568EAA"
-               BuildableName = "RACSwift-ExampleTests.xctest"
-               BlueprintName = "RACSwift-ExampleTests"
-               ReferencedContainer = "container:RACSwift-Example.xcodeproj">
+               BlueprintIdentifier = "BBAC204E1A13061500568EAA"
+               BuildableName = "RACSwift-SearchBarTests.xctest"
+               BlueprintName = "RACSwift-SearchBarTests"
+               ReferencedContainer = "container:RACSwift-SearchBar.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,20 +46,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BBAC20201A13019A00568EAA"
-               BuildableName = "RACSwift-ExampleTests.xctest"
-               BlueprintName = "RACSwift-ExampleTests"
-               ReferencedContainer = "container:RACSwift-Example.xcodeproj">
+               BlueprintIdentifier = "BBAC204E1A13061500568EAA"
+               BuildableName = "RACSwift-SearchBarTests.xctest"
+               BlueprintName = "RACSwift-SearchBarTests"
+               ReferencedContainer = "container:RACSwift-SearchBar.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BBAC200B1A13019A00568EAA"
-            BuildableName = "RACSwift-Example.app"
-            BlueprintName = "RACSwift-Example"
-            ReferencedContainer = "container:RACSwift-Example.xcodeproj">
+            BlueprintIdentifier = "BBAC20391A13061500568EAA"
+            BuildableName = "RACSwift-SearchBar.app"
+            BlueprintName = "RACSwift-SearchBar"
+            ReferencedContainer = "container:RACSwift-SearchBar.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -75,10 +75,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BBAC200B1A13019A00568EAA"
-            BuildableName = "RACSwift-Example.app"
-            BlueprintName = "RACSwift-Example"
-            ReferencedContainer = "container:RACSwift-Example.xcodeproj">
+            BlueprintIdentifier = "BBAC20391A13061500568EAA"
+            BuildableName = "RACSwift-SearchBar.app"
+            BlueprintName = "RACSwift-SearchBar"
+            ReferencedContainer = "container:RACSwift-SearchBar.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -93,10 +93,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BBAC200B1A13019A00568EAA"
-            BuildableName = "RACSwift-Example.app"
-            BlueprintName = "RACSwift-Example"
-            ReferencedContainer = "container:RACSwift-Example.xcodeproj">
+            BlueprintIdentifier = "BBAC20391A13061500568EAA"
+            BuildableName = "RACSwift-SearchBar.app"
+            BlueprintName = "RACSwift-SearchBar"
+            ReferencedContainer = "container:RACSwift-SearchBar.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  RACSwift-Example
+//  RACSwift-SearchBar
 //
 //  Created by Azri Jamil on 11/12/14.
 //  Copyright (c) 2014 Nematix System. All rights reserved.

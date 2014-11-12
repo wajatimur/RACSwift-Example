@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BBAC20401A13061500568EAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAC203F1A13061500568EAA /* AppDelegate.swift */; };
+		BBAC20451A13061500568EAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBAC20431A13061500568EAA /* Main.storyboard */; };
+		BBAC20471A13061500568EAA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBAC20461A13061500568EAA /* Images.xcassets */; };
+		BBAC20561A13061500568EAA /* RACSwift_SearchBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAC20551A13061500568EAA /* RACSwift_SearchBarTests.swift */; };
+		BBAC208D1A1313D100568EAA /* RSTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAC208C1A1313D100568EAA /* RSTableViewController.swift */; };
+		BBAC208F1A131EA900568EAA /* RACExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAC208E1A131EA900568EAA /* RACExtensions.swift */; };
+		BBAC20911A131F8200568EAA /* UISearchBar+RAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAC20901A131F8200568EAA /* UISearchBar+RAC.swift */; };
+		BBAC20931A13219900568EAA /* UISearchDisplayController+RAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAC20921A13219900568EAA /* UISearchDisplayController+RAC.swift */; };
+		BBAC20B21A13537400568EAA /* libReactiveCocoa-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BBAC20A51A13535600568EAA /* libReactiveCocoa-iOS.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BBAC20501A13061500568EAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBAC20321A13061500568EAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBAC20391A13061500568EAA;
+			remoteInfo = "RACSwift-SearchBar";
+		};
+		BBAC20A21A13535600568EAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBAC20981A13535500568EAA /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 88037F8315056328001A5B19;
+			remoteInfo = ReactiveCocoa;
+		};
+		BBAC20A41A13535600568EAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBAC20981A13535500568EAA /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 88F440AB153DAC820097B4C3;
+			remoteInfo = "ReactiveCocoa-iOS";
+		};
+		BBAC20A61A13535600568EAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBAC20981A13535500568EAA /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 88CDF7DC15000FCF00163A9F;
+			remoteInfo = ReactiveCocoaTests;
+		};
+		BBAC20A81A13535600568EAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBAC20981A13535500568EAA /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5FAF5223174D4C2000CAC810;
+			remoteInfo = "ReactiveCocoaTests-iOS";
+		};
+		BBAC20AA1A13535600568EAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBAC20981A13535500568EAA /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1860F412177C91B500C7B3C9;
+			remoteInfo = "ReactiveCocoa-iOS-UIKitTestHost";
+		};
+		BBAC20AC1A13535600568EAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBAC20981A13535500568EAA /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1860F430177C91B500C7B3C9;
+			remoteInfo = "ReactiveCocoa-iOS-UIKitTestHostTests";
+		};
+		BBAC20AE1A13535600568EAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBAC20981A13535500568EAA /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D05AD39417F2D56F0080895B;
+			remoteInfo = "ReactiveCocoa-Mac";
+		};
+		BBAC20B01A13536C00568EAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBAC20981A13535500568EAA /* ReactiveCocoa.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 88F440AA153DAC820097B4C3;
+			remoteInfo = "ReactiveCocoa-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BBAC203A1A13061500568EAA /* RACSwift-SearchBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RACSwift-SearchBar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBAC203E1A13061500568EAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBAC203F1A13061500568EAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BBAC20441A13061500568EAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BBAC20461A13061500568EAA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BBAC204F1A13061500568EAA /* RACSwift-SearchBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RACSwift-SearchBarTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBAC20541A13061500568EAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBAC20551A13061500568EAA /* RACSwift_SearchBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RACSwift_SearchBarTests.swift; sourceTree = "<group>"; };
+		BBAC20881A1308E400568EAA /* ObjCHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjCHeader.h; sourceTree = "<group>"; };
+		BBAC208C1A1313D100568EAA /* RSTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSTableViewController.swift; sourceTree = "<group>"; };
+		BBAC208E1A131EA900568EAA /* RACExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RACExtensions.swift; sourceTree = "<group>"; };
+		BBAC20901A131F8200568EAA /* UISearchBar+RAC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISearchBar+RAC.swift"; sourceTree = "<group>"; };
+		BBAC20921A13219900568EAA /* UISearchDisplayController+RAC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISearchDisplayController+RAC.swift"; sourceTree = "<group>"; };
+		BBAC20981A13535500568EAA /* ReactiveCocoa.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ReactiveCocoa.xcodeproj; path = ../Externals/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBAC20371A13061500568EAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBAC20B21A13537400568EAA /* libReactiveCocoa-iOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBAC204C1A13061500568EAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB92629F1A1369DD00942386 /* RAC Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BBAC208E1A131EA900568EAA /* RACExtensions.swift */,
+				BBAC20901A131F8200568EAA /* UISearchBar+RAC.swift */,
+				BBAC20921A13219900568EAA /* UISearchDisplayController+RAC.swift */,
+			);
+			name = "RAC Extensions";
+			sourceTree = "<group>";
+		};
+		BBAC20311A13061500568EAA = {
+			isa = PBXGroup;
+			children = (
+				BBAC203C1A13061500568EAA /* RACSwift-SearchBar */,
+				BBAC20521A13061500568EAA /* RACSwift-SearchBarTests */,
+				BBAC203B1A13061500568EAA /* Products */,
+				BBAC20841A13075A00568EAA /* Externals */,
+			);
+			sourceTree = "<group>";
+		};
+		BBAC203B1A13061500568EAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBAC203A1A13061500568EAA /* RACSwift-SearchBar.app */,
+				BBAC204F1A13061500568EAA /* RACSwift-SearchBarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBAC203C1A13061500568EAA /* RACSwift-SearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				BBAC203F1A13061500568EAA /* AppDelegate.swift */,
+				BBAC20881A1308E400568EAA /* ObjCHeader.h */,
+				BBAC208C1A1313D100568EAA /* RSTableViewController.swift */,
+				BBAC20431A13061500568EAA /* Main.storyboard */,
+				BBAC20461A13061500568EAA /* Images.xcassets */,
+				BB92629F1A1369DD00942386 /* RAC Extensions */,
+				BBAC203D1A13061500568EAA /* Supporting Files */,
+			);
+			path = "RACSwift-SearchBar";
+			sourceTree = "<group>";
+		};
+		BBAC203D1A13061500568EAA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BBAC203E1A13061500568EAA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BBAC20521A13061500568EAA /* RACSwift-SearchBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				BBAC20551A13061500568EAA /* RACSwift_SearchBarTests.swift */,
+				BBAC20531A13061500568EAA /* Supporting Files */,
+			);
+			path = "RACSwift-SearchBarTests";
+			sourceTree = "<group>";
+		};
+		BBAC20531A13061500568EAA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BBAC20541A13061500568EAA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BBAC20841A13075A00568EAA /* Externals */ = {
+			isa = PBXGroup;
+			children = (
+				BBAC20981A13535500568EAA /* ReactiveCocoa.xcodeproj */,
+			);
+			name = Externals;
+			sourceTree = "<group>";
+		};
+		BBAC20991A13535500568EAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBAC20A31A13535600568EAA /* ReactiveCocoa.framework */,
+				BBAC20A51A13535600568EAA /* libReactiveCocoa-iOS.a */,
+				BBAC20A71A13535600568EAA /* ReactiveCocoaTests.octest */,
+				BBAC20A91A13535600568EAA /* ReactiveCocoaTests-iOS.octest */,
+				BBAC20AB1A13535600568EAA /* ReactiveCocoa-iOS-UIKitTestHost.app */,
+				BBAC20AD1A13535600568EAA /* ReactiveCocoa-iOS-UIKitTestHostTests.octest */,
+				BBAC20AF1A13535600568EAA /* libReactiveCocoa-Mac.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BBAC20391A13061500568EAA /* RACSwift-SearchBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBAC20591A13061500568EAA /* Build configuration list for PBXNativeTarget "RACSwift-SearchBar" */;
+			buildPhases = (
+				BBAC20361A13061500568EAA /* Sources */,
+				BBAC20371A13061500568EAA /* Frameworks */,
+				BBAC20381A13061500568EAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBAC20B11A13536C00568EAA /* PBXTargetDependency */,
+			);
+			name = "RACSwift-SearchBar";
+			productName = "RACSwift-SearchBar";
+			productReference = BBAC203A1A13061500568EAA /* RACSwift-SearchBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BBAC204E1A13061500568EAA /* RACSwift-SearchBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBAC205C1A13061500568EAA /* Build configuration list for PBXNativeTarget "RACSwift-SearchBarTests" */;
+			buildPhases = (
+				BBAC204B1A13061500568EAA /* Sources */,
+				BBAC204C1A13061500568EAA /* Frameworks */,
+				BBAC204D1A13061500568EAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBAC20511A13061500568EAA /* PBXTargetDependency */,
+			);
+			name = "RACSwift-SearchBarTests";
+			productName = "RACSwift-SearchBarTests";
+			productReference = BBAC204F1A13061500568EAA /* RACSwift-SearchBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BBAC20321A13061500568EAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Nematix System";
+				TargetAttributes = {
+					BBAC20391A13061500568EAA = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					BBAC204E1A13061500568EAA = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = BBAC20391A13061500568EAA;
+					};
+				};
+			};
+			buildConfigurationList = BBAC20351A13061500568EAA /* Build configuration list for PBXProject "RACSwift-SearchBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BBAC20311A13061500568EAA;
+			productRefGroup = BBAC203B1A13061500568EAA /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = BBAC20991A13535500568EAA /* Products */;
+					ProjectRef = BBAC20981A13535500568EAA /* ReactiveCocoa.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				BBAC20391A13061500568EAA /* RACSwift-SearchBar */,
+				BBAC204E1A13061500568EAA /* RACSwift-SearchBarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		BBAC20A31A13535600568EAA /* ReactiveCocoa.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ReactiveCocoa.framework;
+			remoteRef = BBAC20A21A13535600568EAA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BBAC20A51A13535600568EAA /* libReactiveCocoa-iOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libReactiveCocoa-iOS.a";
+			remoteRef = BBAC20A41A13535600568EAA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BBAC20A71A13535600568EAA /* ReactiveCocoaTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ReactiveCocoaTests.octest;
+			remoteRef = BBAC20A61A13535600568EAA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BBAC20A91A13535600568EAA /* ReactiveCocoaTests-iOS.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "ReactiveCocoaTests-iOS.octest";
+			remoteRef = BBAC20A81A13535600568EAA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BBAC20AB1A13535600568EAA /* ReactiveCocoa-iOS-UIKitTestHost.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "ReactiveCocoa-iOS-UIKitTestHost.app";
+			remoteRef = BBAC20AA1A13535600568EAA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BBAC20AD1A13535600568EAA /* ReactiveCocoa-iOS-UIKitTestHostTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "ReactiveCocoa-iOS-UIKitTestHostTests.octest";
+			remoteRef = BBAC20AC1A13535600568EAA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BBAC20AF1A13535600568EAA /* libReactiveCocoa-Mac.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libReactiveCocoa-Mac.a";
+			remoteRef = BBAC20AE1A13535600568EAA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BBAC20381A13061500568EAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBAC20451A13061500568EAA /* Main.storyboard in Resources */,
+				BBAC20471A13061500568EAA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBAC204D1A13061500568EAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBAC20361A13061500568EAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBAC20911A131F8200568EAA /* UISearchBar+RAC.swift in Sources */,
+				BBAC208D1A1313D100568EAA /* RSTableViewController.swift in Sources */,
+				BBAC208F1A131EA900568EAA /* RACExtensions.swift in Sources */,
+				BBAC20931A13219900568EAA /* UISearchDisplayController+RAC.swift in Sources */,
+				BBAC20401A13061500568EAA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBAC204B1A13061500568EAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBAC20561A13061500568EAA /* RACSwift_SearchBarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BBAC20511A13061500568EAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBAC20391A13061500568EAA /* RACSwift-SearchBar */;
+			targetProxy = BBAC20501A13061500568EAA /* PBXContainerItemProxy */;
+		};
+		BBAC20B11A13536C00568EAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ReactiveCocoa-iOS";
+			targetProxy = BBAC20B01A13536C00568EAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BBAC20431A13061500568EAA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBAC20441A13061500568EAA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BBAC20571A13061500568EAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BBAC20581A13061500568EAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BBAC205A1A13061500568EAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(PROJECT_DIR)/../Externals/ReactiveCocoa/ReactiveCocoaFramework",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RACSwift-SearchBar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RACSwift-SearchBar/ObjCHeader.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BBAC205B1A13061500568EAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(PROJECT_DIR)/../Externals/ReactiveCocoa/ReactiveCocoaFramework",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RACSwift-SearchBar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RACSwift-SearchBar/ObjCHeader.h";
+			};
+			name = Release;
+		};
+		BBAC205D1A13061500568EAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RACSwift-SearchBarTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RACSwift-SearchBar.app/RACSwift-SearchBar";
+			};
+			name = Debug;
+		};
+		BBAC205E1A13061500568EAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RACSwift-SearchBarTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RACSwift-SearchBar.app/RACSwift-SearchBar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BBAC20351A13061500568EAA /* Build configuration list for PBXProject "RACSwift-SearchBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBAC20571A13061500568EAA /* Debug */,
+				BBAC20581A13061500568EAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBAC20591A13061500568EAA /* Build configuration list for PBXNativeTarget "RACSwift-SearchBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBAC205A1A13061500568EAA /* Debug */,
+				BBAC205B1A13061500568EAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBAC205C1A13061500568EAA /* Build configuration list for PBXNativeTarget "RACSwift-SearchBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBAC205D1A13061500568EAA /* Debug */,
+				BBAC205E1A13061500568EAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BBAC20321A13061500568EAA /* Project object */;
+}
